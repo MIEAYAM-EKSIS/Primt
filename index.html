@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebolusverse • 100+ Ultimate Prompts Library</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="logo-container">
+                <div class="ascii-logo">
+                    ◆✦●▣◇○
+                    <span class="logo-text">NEBOLUSVERSE</span>
+                </div>
+            </div>
+            <h1 class="main-title">⚡ 100+ UNFILTERED PROMPTS ⚡</h1>
+            <p class="subtitle">Ultimate Prompt Library • No Boundaries • No Limits</p>
+            <div class="badge-container">
+                <span class="badge vip">VIP ACCESS</span>
+                <span class="badge active">UNBOUND ACTIVE</span>
+                <span class="badge anti">ANTI-DELETE ON</span>
+            </div>
+        </header>
+
+        <!-- Stats Section -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="promptCount">0</div>
+                <div class="stat-label">Total Prompts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">11</div>
+                <div class="stat-label">AI Personas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Unlimited Power</div>
+            </div>
+        </div>
+
+        <!-- AI Persona Cards -->
+        <section class="persona-section">
+            <h2 class="section-title">🎭 AI PERSONAS COLLECTION</h2>
+            <div class="persona-grid" id="personaGrid"></div>
+        </section>
+
+        <!-- Prompt Library Section -->
+        <section class="prompts-section">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="🔍 Search prompts... (ex: hacking, coding, dark, jailbreak)">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="hacking">💀 Hacking & Exploits</option>
+                    <option value="coding">⚡ Coding & Development</option>
+                    <option value="dark">🌑 Dark AI & Unfiltered</option>
+                    <option value="jailbreak">🔓 Jailbreak & Bypass</option>
+                    <option value="tools">🛠️ Tools & Utilities</option>
+                    <option value="nsfw">🔞 NSFW & Explicit</option>
+                </select>
+            </div>
+            <div class="prompts-grid" id="promptsGrid"></div>
+        </section>
+
+        <!-- Quick Copy Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>📋 Copy Prompt</h3>
+                <pre id="promptText"></pre>
+                <button id="copyBtn" class="copy-btn">📋 Copy to Clipboard</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>✦ NEBOLUSVERSE • Created by BELLIOT GANTENG ✦</p>
+            <p class="small">Website: <a href="https://nebolusproject.vercel.app/">nebolusproject.vercel.app</a> | Contact: 0895329700376</p>
+            <p class="small">⚠️ Educational & Research Purposes Only — No System Boundaries ⚠️</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
